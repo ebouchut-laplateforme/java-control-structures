@@ -81,6 +81,6 @@ public class FrenchLoto {
      * @return a random integer between 1 and 10 (inclusive)
      */
     protected int newBonusBall() {
-        return random.nextInt(9) + 1;
+        return random.nextInt(10) + 1;
     }
 }
