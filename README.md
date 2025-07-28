@@ -116,3 +116,16 @@ for (int i=0; i < numbers.length; i++) {
     System.out.println(number);  
 }
 ```
+
+### While Loop
+
+```java
+while (condition) {
+  // Do something on every loop cycle
+  // ...
+}
+```
+
+The above code iterates while `condition` (a boolean instruction) is true`.
+The block between the curly braces `{ }` is executed at each loop cycle.
+
