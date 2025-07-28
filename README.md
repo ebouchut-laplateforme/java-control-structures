@@ -90,7 +90,11 @@ while (index < grades.length) {
 
 ### Foreach Loop
 
-The foreach loop iterates over an array
+The foreach loop provides iterates over an array. 
+It is way compact than a regular for loop, because 
+we do not have to initialize the index, check the exit condition, 
+and increment the index.
+
 ```java
 int[] numbers = {1,2,3,4,5};
 
