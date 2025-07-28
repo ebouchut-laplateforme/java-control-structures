@@ -6,8 +6,10 @@ import java.util.Random;
 
 /**
  * This class mimics the results of the <i>French Loto</i>.
+ * It uses Random
  *
  * @see FrenchLoto#results()
+ * @see java.util.Random
  */
 public class FrenchLoto {
 
@@ -24,9 +26,11 @@ public class FrenchLoto {
         for(int i=0; i < 10; i++) {
             List<Integer> results = loto.results();
 
+            // The shorter way to display the results List
             // System.out.println(results);
 
-            // Display the list using a foreach
+            // Display the list using a foreach loop.
+            // This is a contrived example to pratice the foreach loop.
             for(Integer ball: results) {
                 System.out.print(ball);
                 System.out.print(", ");
