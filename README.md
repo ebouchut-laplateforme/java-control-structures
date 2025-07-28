@@ -5,9 +5,10 @@
 In this lab we practice Java control structures:
 
 - regular `for` loop
+- foreach loop
 - `if` / `else if` / `else`
 
-We use them in two helper classes named `Grade` and `FizzBuzz`.
+We use them in two helper classes named `Grade` and `FizzBuzz` and a class named `FrenchLoto`.
 
 ## Control Structures
 
@@ -101,10 +102,13 @@ for (int number: numbers) {
 This is equivalent to:
 
 ```java
+int[] numbers = {1,2,3,4,5};
+
 int number;
 
 for (int i=0; i < numbers.length; i++) {
     number = numbers[i];
+    
     System.out.println(number);  
 }
 ```
