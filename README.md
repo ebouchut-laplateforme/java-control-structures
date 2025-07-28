@@ -126,6 +126,6 @@ while (condition) {
 }
 ```
 
-The above code iterates while `condition` (a boolean instruction) is true`.
+The above code iterates while `condition` (a boolean instruction) is `true`.
 The block between the curly braces `{ }` is executed at each loop cycle.
 
