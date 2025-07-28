@@ -11,7 +11,7 @@ We use them in two helper classes named `Grade` and `FizzBuzz`.
 
 ## Control Structures
 
-### For Loop
+### Regular For Loop
 
 ```java
 // 🇺🇸 grades  <==> 🇫🇷 notes (d'un exam par ex)
@@ -32,7 +32,7 @@ for (int index = 0;  index < grades.length;  index++) {
 ```
 
 Let's break down the control structure.
-The for control structure contains 3 instructions. 
+The `for` control structure contains 3 instructions. 
 Let s call them `A`, `B` , and `C` for short.
 They are separated by a semicolon (`;`), and are between parentesis: `(A; B; C)`.
 
@@ -84,5 +84,27 @@ int index = 0;
 while (index < grades.length) {
     System.out.println( grades[index]);
     index++;
+}
+```
+
+### Foreach Loop
+
+The foreach loop iterates over an array
+```java
+int[] numbers = {1,2,3,4,5};
+
+for (int number: numbers) {
+    System.out.println(number);
+}
+```
+
+This is equivalent to:
+
+```java
+int number;
+
+for (int i=0; i < numbers.length; i++) {
+    number = numbers[i];
+    System.out.println(number);  
 }
 ```
